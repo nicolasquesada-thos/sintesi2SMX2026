@@ -96,7 +96,6 @@ header {
 
 /* Aquesta és la classe que n8n o el JS activarà */
 .icons i.fet {
-    color: #2ecc71 !important; /* Un verd més viu perquè destaqui */
     opacity: 1;
 }
 
