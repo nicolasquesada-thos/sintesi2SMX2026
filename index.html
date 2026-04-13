@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="ca">
+
 <head>
   <meta charset="UTF-8">
   <title>Síntesi 2SMX 2026</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,234 +13,290 @@
     }
 
     header {
-      background-color: #2c3e50;
+      background-color: #a83e3e;
       color: white;
       padding: 20px;
       text-align: center;
     }
 
-    nav {
-      background-color: #34495e;
-      padding: 10px;
-      text-align: center;
-    }
 
-    nav a {
-      color: white;
-      margin: 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
 
     .container {
       padding: 20px;
     }
 
     .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
 
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    .footer-card {
+      margin-top: auto;
+    }
 
-  display: flex;
-  flex-direction: column;
-}
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
-}
+      display: flex;
+      flex-direction: column;
+    }
 
-.card h3 {
-  margin-top: 0;
-}
+    .card p {
+      margin: 10px 0;
+    }
 
-.card a {
-  text-decoration: none;
-  color: white;
-  background-color: #3498db;
-  padding: 8px 12px;
-  border-radius: 10px;
-  margin-top: auto;
-}
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
 
-.card a:hover {
-  background-color: #2980b9;
-}
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 0px;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: white;
+      background-color: #c75a5a;
+      padding: 8px 12px;
+      border-radius: 10px;
+      margin-top: auto;
+    }
+
+    .card a:hover {
+      background-color: #d85757;
+    }
+
+
+    .card.tipus1 {
+      background-color: #e8f4fc;
+      /* blau suau */
+      border-left: 5px solid #3498db;
+    }
+
+    .card.tipus2 {
+      background-color: #eafaf1;
+      /* verd suau */
+      border-left: 5px solid #2ecc71;
+    }
+
+    .card.tipus3 {
+      background-color: #fef5e7;
+      /* taronja suau */
+      border-left: 5px solid #f39c12;
+    }
+
+    .card_header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 0;
+    }
+
+    .icons {
+      margin-top: auto;
+      padding-top: 10px;
+    }
+
+    .icons i {
+      font-size: 14px;
+      margin-right: 6px;
+      color: #666;
+      opacity: 0.5;
+    }
+
+    .icons i.fet {
+      color: #000;
+      opacity: 1;
+    }
+
+    .mes_info_btn {
+      text-decoration: none;
+      color: white;
+      width: 25px;
+      height: 25px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      
+      font-weight: bold;
+      transition: background 0.3s;
+    }
 
     footer {
       text-align: center;
       padding: 10px;
-      background: #2c3e50;
+      background: #a83e3e;
       color: white;
       margin-top: 20px;
     }
-
-.card.tipus1 {
-  background-color: #e8f4fc; /* blau suau */
-  border-left: 5px solid #3498db;
-}
-
-.card.tipus2 {
-  background-color: #eafaf1; /* verd suau */
-  border-left: 5px solid #2ecc71;
-}
-
-.card.tipus3 {
-  background-color: #fef5e7; /* taronja suau */
-  border-left: 5px solid #f39c12;
-}
   </style>
 </head>
 
 <body>
 
-<header>
-  <h1>Projectes de síntesi de segon curs d'SMX 2026</h1>
-  <p>Projectes de síntesi - Sistemes Microinformàtics i Xarxes</p>
-</header>
+  <header>
+    <h1>Projectes de síntesi de segon curs d'SMX 2026</h1>
+    <p>Projectes de síntesi - Sistemes Microinformàtics i Xarxes</p>
+  </header>
 
 
-<div class="container">
+  <div class="container">
 
-  <div class="grid">
+    <div class="grid">
 
-    <div class="card tipus1">
-      <h3>Classe G1 - grup 1</h3>
-      <p>...</p>
-      <a href="#">Més info ...</a>
+      <div class="card tipus1">
+        <h3>Classe G1 - grup 1</h3>
+        <p>...</p>
+        <a href="#">Més info ...</a>
+      </div>
+
+      <div class="card tipus1">
+        <h3>Classe G1 - grup 2</h3>
+        <p>...</p>
+        <a href="#">Més info ...</a>
+      </div>
+
+      <div class="card tipus1">
+        <h3>Classe G1 - grup 3</h3>
+        <p>...</p>
+        <a href="#">Més info ...</a>
+      </div>
+
+      <div class="card tipus1">
+        <h3>Classe G1 - grup 4</h3>
+        <p>...</p>
+        <a href="#">Més info ...</a>
+      </div>
+
+      <div class="card tipus1">
+        <h3>Classe G1 - grup 5</h3>
+        <p>...</p>
+        <a href="#">Més info ...</a>
+      </div>
+
+      <div class="card tipus1">
+        <h3>Classe G1 - grup 6</h3>
+        <p>...</p>
+        <a href="#">Més info ...</a>
+      </div>
+
+      <div class="card tipus2">
+        <h3>Classe G2 - grup 1</h3>
+        <p>Escenari de servidors d'una empresa de venda i reparació de productes informàtics.</p>
+
+        <a href="#">Més info ...</a>
+        <p>Complexitat: ★★★☆☆</p>
+      </div>
+
+      <div class="card tipus2">
+        <h3>Classe G2 - grup 2</h3>
+        <p>Escenari de servidors d'un càmping.</p>
+        <a href="#">Més info ...</a>
+        <p>Complexitat: ★★★☆☆</p>
+      </div>
+
+      <div class="card tipus2">
+        <h3>Classe G2 - grup 3</h3>
+        <p>Escenari de servidors d'una empresa de videojocs.</p>
+        <a href="#">Més info ...</a>
+        <p>Complexitat: ★★★☆☆</p>
+      </div>
+
+      <div class="card tipus2">
+        <h3>Classe G2 - grup 4</h3>
+        <p>Escenari de servidors d'un centre comercial.</p>
+        <a href="#">Més info ...</a>
+        <p>Complexitat: ★★★☆☆</p>
+      </div>
+
+      <div class="card tipus2">
+        <h3>Classe G2 - grup 5</h3>
+        <p>Escenari de servidors d'una empresa de compra i venda d'automòvils.</p>
+        <a href="#">Més info ...</a>
+        <p>Complexitat: ★★★☆☆</p>
+      </div>
+
+      <div class="card tipus2">
+        <h3>Classe G2 - grup 6</h3>
+        <p>Escenari de servidors d'un hotel.</p>
+        <a href="#">Més info ...</a>
+        <p>Complexitat: ★★★☆☆</p>
+      </div>
+
+      <div class="card tipus3">
+        <h3>Classe G3 - grup 1</h3>
+        <p>Escenari de servidors d'una empresa de videojocs.</p>
+        <a href="#">Més info ...</a>
+        <p>Complexitat: ★★★☆☆</p>
+      </div>
+
+      <div class="card tipus3">
+        <h3>Classe G3 - grup 2</h3>
+        <p>Escenari de servidors d'una empresa del sector agroalimentari.</p>
+        <p>A destacar: Implementació de serveis a un equip remot amb Rpi i VPN.</p>
+        <a href="#">Més info ...</a>
+        <p>Complexitat: ★★★☆☆</p>
+      </div>
+
+      <div class="card tipus3">
+        <h3>Classe G3 - grup 3</h3>
+        <p>Escenari de servidors de la seu central d'un empresa de gimnasos.</p>
+        <p>A destacar: Securització per VPN de l'accés als servidors de l'empresa.</p>
+        <a href="#">Més info ...</a>
+        <p>Complexitat: ★★★☆☆</p>
+      </div>
+
+      <div class="card tipus3">
+        <h3>Classe G3 - grup 4</h3>
+        <p>Escenari de servidors de la seu central d'una empresa de roba.</p>
+        <a href="#">Més info ...</a>
+        <p>Complexitat: ★★★☆☆</p>
+      </div>
+
+      <div class="card tipus3">
+        <div class="card_header">
+          <h3>Classe G3 - grup 5</h3>
+          <a href="#" class="mes_info_btn">+</a>
+        </div>
+
+        <p>Escenari de servidors de la seu central d'una empresa de cibercafès.</p>
+        
+        <div class="footer-card">
+
+          <div class="icons-group">
+            <div class="icons">
+              <i class="fa-solid fa-computer fet" title="Maquinari i programari"></i>
+              <i class="fa-solid fa-network-wired fet" title="Disseny de la xarxa"></i>
+              <i class="fa-solid fa-users-gear fet" title="Directori Actiu"></i>
+              <i class="fa-solid fa-globe fet" title="DNS"></i>
+              <i class="fa-solid fa-code" title="Apache2"></i>
+              <i class="fa-solid fa-database" title="Còpies de seguretat"></i>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-route fet" title="Router"></i>
+              <i class="fa-brands fa-wordpress fet" title="WordPress"></i>
+              <i class="fa-solid fa-magnifying-glass" title="Wireshark"></i>
+              <i class="fa-solid fa-lock" title="VPN"></i>
+              <i class="fa-solid fa-server" title="NAS"></i>
+              <i class="fa-solid fa-gears" title="Automatització d'usuaris a l'AD"></i>
+              <i class="fa-brands fa-windows" title="IIS"></i>
+              <i class="fa-solid fa-brain" title="Intel·ligència Artificial"></i>
+              <i class="fa-solid fa-puzzle-piece" title="Altres serveis"></i>
+
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="card tipus1">
-      <h3>Classe G1 - grup 2</h3>
-      <p>...</p>
-      <a href="#">Més info ...</a>
-    </div>
-
-    <div class="card tipus1">
-      <h3>Classe G1 - grup 3</h3>
-      <p>...</p>
-      <a href="#">Més info ...</a>
-    </div>
-
-    <div class="card tipus1">
-      <h3>Classe G1 - grup 4</h3>
-      <p>...</p>
-      <a href="#">Més info ...</a>
-    </div>
-
-    <div class="card tipus1">
-      <h3>Classe G1 - grup 5</h3>
-      <p>...</p>
-      <a href="#">Més info ...</a>
-    </div>
-
-    <div class="card tipus1">
-      <h3>Classe G1 - grup 6</h3>
-      <p>...</p>
-      <a href="#">Més info ...</a>
-    </div>
-
-    <div class="card tipus2">
-      <h3>Classe G2 - grup 1</h3>
-      <p>Escenari de servidors d'una empresa de venda i reparació de productes informàtics.</p>
-      
-      <a href="#">Més info ...</a>
-      <p>Complexitat: ★★★☆☆</p>
-    </div>
-
-    <div class="card tipus2">
-      <h3>Classe G2 - grup 2</h3>
-      <p>Escenari de servidors d'un càmping.</p>
-      <a href="#">Més info ...</a>
-      <p>Complexitat: ★★★☆☆</p>
-    </div>
-
-    <div class="card tipus2">
-      <h3>Classe G2 - grup 3</h3>
-      <p>Escenari de servidors d'una empresa de videojocs.</p>
-      <a href="#">Més info ...</a>
-      <p>Complexitat: ★★★☆☆</p>
-    </div>
-
-    <div class="card tipus2">
-      <h3>Classe G2 - grup 4</h3>
-      <p>Escenari de servidors d'un centre comercial.</p>
-      <a href="#">Més info ...</a>
-      <p>Complexitat: ★★★☆☆</p>
-    </div>
-
-    <div class="card tipus2">
-      <h3>Classe G2 - grup 5</h3>
-      <p>Escenari de servidors d'una empresa de compra i venda d'automòvils.</p>
-      <a href="#">Més info ...</a>
-      <p>Complexitat: ★★★☆☆</p>
-    </div>
-
-    <div class="card tipus2">
-      <h3>Classe G2 - grup 6</h3>
-      <p>Escenari de servidors d'un hotel.</p>
-      <a href="#">Més info ...</a>
-      <p>Complexitat: ★★★☆☆</p>
-    </div>
-
-    <div class="card tipus3">
-      <h3>Classe G3 - grup 1</h3>
-      <p>Escenari de servidors d'una empresa de videojocs.</p>
-      <a href="#">Més info ...</a>
-      <p>Complexitat: ★★★☆☆</p>
-    </div>
-
-    <div class="card tipus3">
-      <h3>Classe G3 - grup 2</h3>
-      <p>Escenari de servidors d'una empresa del sector agroalimentari.</p>
-      <p>A destacar: Implementació de serveis a un equip remot amb Rpi i VPN.</p>
-      <a href="#">Més info ...</a>
-      <p>Complexitat: ★★★☆☆</p>
-    </div>
-
-    <div class="card tipus3">
-      <h3>Classe G3 - grup 3</h3>
-      <p>Escenari de servidors de la seu central d'un empresa de gimnasos.</p>
-      <p>A destacar: Securització per VPN de l'accés als servidors de l'empresa.</p>
-      <a href="#">Més info ...</a>
-      <p>Complexitat: ★★★☆☆</p>
-    </div>
-
-    <div class="card tipus3">
-      <h3>Classe G3 - grup 4</h3>
-      <p>Escenari de servidors de la seu central d'una empresa de roba.</p>
-      <a href="#">Més info ...</a>
-      <p>Complexitat: ★★★☆☆</p>
-    </div>
-
-    <div class="card tipus3">
-      <h3>Classe G3 - grup 5</h3>
-      <p>Escenari de servidors de la seu central d'una empresa de cibercafès.</p>
-      <a href="#">Més info ...</a>
-      <p>Complexitat: ★★★☆☆</p>
-    </div>
-
-
-
-
-  </div>
-
-</div>
-
-<footer>
-  <p>SMX - Thos i Codina</p>
-</footer>
-
+    <footer>
+      <p>SMX - Thos i Codina</p>
+    </footer>
 </body>
 </html>
