@@ -60,17 +60,17 @@ header {
     background-color: #d85757;
 }
 
-.card.tipus1 {
+.card.G1 {
     background-color: #e8f4fc;
     border-left: 5px solid #3498db;
 }
 
-.card.tipus2 {
+.card.G2 {
     background-color: #eafaf1;
     border-left: 5px solid #2ecc71;
 }
 
-.card.tipus3 {
+.card.G3 {
     background-color: #fef5e7;
     border-left: 5px solid #f39c12;
 }
