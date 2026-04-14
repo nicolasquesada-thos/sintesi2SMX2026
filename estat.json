@@ -21,5 +21,66 @@
     "A2",
     "BK",
     "ROUT"
+  ],
+  "G2g2": [
+    "HW",
+    "NET",
+    "AD",
+    "DNS",
+    "A2",
+    "BK",
+    "ROUT",
+    "WP",
+    "WS"
+  ],
+  "G2g3": [
+    "HW",
+    "NET",
+    "AD",
+    "DNS",
+    "A2",
+    "BK",
+    "ROUT",
+    "WP",
+    "WS"
+  ],
+  "G2g4": [
+    "HW",
+    "NET",
+    "AD",
+    "DNS",
+    "A2",
+    "BK",
+    "ROUT",
+    "WS"
+  ],
+  "G2g6": [
+    "HW",
+    "NET",
+    "AD",
+    "DNS",
+    "A2",
+    "BK",
+    "ROUT",
+    "WP"
+  ],
+  "G2g5": [
+    "HW",
+    "NET",
+    "DNS",
+    "A2",
+    "ROUT",
+    "WP"
+  ],
+  "G2g1": [
+    "HW",
+    "NET",
+    "AD",
+    "DNS",
+    "A2",
+    "BK",
+    "ROUT",
+    "WP",
+    "WS"
   ]
 }
