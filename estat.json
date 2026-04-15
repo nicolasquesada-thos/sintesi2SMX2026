@@ -1,17 +1,25 @@
 {
   "G3g4": [
-    "BK",
-    "ROUT"
+    "HW",
+    "NET",
+    "AD",
+    "DNS",
+    "A2",
+    "DNS++"
   ],
   "G3g5": [
     "HW",
     "NET",
     "AD",
     "DNS",
-    "REMOT",
-    "IIS",
-    "IA",
-    "GAME"
+    "A2",
+    "BK",
+    "ROUT",
+    "WP",
+    "WS",
+    "DNS+",
+    "MX",
+    "PS"
   ],
   "G3g3": [
     "HW",
@@ -20,7 +28,13 @@
     "DNS",
     "A2",
     "BK",
-    "ROUT"
+    "ROUT",
+    "WS",
+    "DNS+",
+    "DNS++",
+    "VPN",
+    "PS",
+    "IIS"
   ],
   "G2g2": [
     "HW",
@@ -82,5 +96,39 @@
     "ROUT",
     "WP",
     "WS"
+  ],
+  "G3g1": [
+    "HW",
+    "NET",
+    "AD",
+    "DNS",
+    "A2",
+    "BK",
+    "WS"
+  ],
+  "G3g6": [
+    "HW",
+    "NET",
+    "AD",
+    "DNS",
+    "A2",
+    "BK",
+    "ROUT",
+    "WP",
+    "MX",
+    "PS"
+  ],
+  "G3g2": [
+    "HW",
+    "NET",
+    "AD",
+    "DNS",
+    "A2",
+    "BK",
+    "ROUT",
+    "WS",
+    "MX",
+    "VPN",
+    "REMOT"
   ]
 }
