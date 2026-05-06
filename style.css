@@ -90,7 +90,7 @@ header {
 .icons i {
     font-size: 14px;
     margin-right: 6px;
-    color: #666;
+    color: #333333;
     opacity: 0.3; /* Baixem una mica l'opacitat dels que no estan fets */
 }
 
@@ -110,6 +110,10 @@ header {
     box-sizing: border-box;
     font-weight: bold;
     transition: background 0.3s;
+}
+
+.integrants {
+margin-left: -15px;
 }
 
 footer {
