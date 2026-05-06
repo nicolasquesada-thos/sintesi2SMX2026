@@ -90,13 +90,13 @@ max-width: 1330px;
 }
 
 .icons i {
-    font-size: 14px;
+    font-size: 15px;
     margin-right: 6px;
     color: #333333;
-    opacity: 0.3; /* Baixem una mica l'opacitat dels que no estan fets */
+    opacity: 0.3; /* per defecte - no fet */
 }
 
-/* Aquesta és la classe que n8n o el JS activarà */
+/* fet */
 .icons i.fet {
     opacity: 1;
 }
