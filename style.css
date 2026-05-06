@@ -119,10 +119,32 @@ margin-left: -15px;
 }
 
 .extra {
-    border: 1px solid black;
+    
     border-radius: 8px;
     padding: 8px 12px;
 
+}
+
+.card.G1 .extra {
+    border: 2px solid #287bb3;
+}
+.card.G1 .extra i {
+    font-size: 20px;
+    color: #287bb3;
+}
+.card.G2 .extra {
+    border: 2px solid #1f8d4d;
+}
+.card.G2 .extra i {
+    font-size: 20px;
+    color: #1f8d4d;
+}
+.card.G3 .extra {
+    border: 2px solid #c7800d;
+}
+.card.G3 .extra i {
+    font-size: 20px;
+    color: #c7800d;
 }
 
 .extra p {
@@ -131,9 +153,7 @@ margin-left: -15px;
     gap: 12px; /* espai entre icona i text */
 }
 
-.extra i {
-    font-size: 20px;
-}
+
 
 footer {
     text-align: center;
