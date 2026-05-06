@@ -8,7 +8,10 @@
     "BK",
     "ROUT",
     "WP",
-    "WS"
+    "WS",
+    "DNS+",
+    "DNS++",
+    "NAS"
   ],
   "G2g2": [
     "HW",
@@ -19,7 +22,8 @@
     "BK",
     "ROUT",
     "WP",
-    "WS"
+    "WS",
+    "REMOT"
   ],
   "G2g3": [
     "HW",
@@ -30,7 +34,10 @@
     "BK",
     "ROUT",
     "WP",
-    "WS"
+    "WS",
+    "MX",
+    "PS",
+    "GAME"
   ],
   "G2g4": [
     "HW",
@@ -40,7 +47,10 @@
     "A2",
     "BK",
     "ROUT",
-    "WS"
+    "WS",
+    "DNS+",
+    "DNS++"
+    "MX"
   ],
   "G2g5": [
     "HW",
@@ -48,16 +58,16 @@
     "DNS",
     "A2",
     "ROUT",
-    "WP"
+    "WP",
+    "MX"
   ],
   "G2g6": [
     "HW",
     "NET",
-    "AD",
     "DNS",
     "A2",
     "BK",
-    "ROUT",
+    "MX",
     "WP"
   ],
   "G3g1": [
