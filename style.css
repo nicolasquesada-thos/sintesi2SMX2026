@@ -116,6 +116,23 @@ header {
 margin-left: -15px;
 }
 
+.extra {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px 12px;
+
+}
+
+.extra p {
+    display: flex;
+    align-items: center; /* centra verticalment la icona */
+    gap: 12px; /* espai entre icona i text */
+}
+
+.extra i {
+    font-size: 20px;
+}
+
 footer {
     text-align: center;
     padding: 10px;
